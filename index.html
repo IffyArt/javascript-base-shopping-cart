@@ -1,10 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>購物車練習</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <main class="main">
+      <article class="main__container">
+        <ul class="product-items">
+          <li>
+            <header class="product-items__cover">
+              <img
+                src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+              />
+            </header>
+            <article class="product-items__info">
+              <h2>包包</h2>
+              <b>123</b>
+              <section class="product-items__number">
+                <span class="material-symbols-outlined"> remove </span>
+                <input type="number" value="1" />
+                <span class="material-symbols-outlined"> add </span>
+              </section>
+              <button class="product-items__button">新增商品</button>
+            </article>
+          </li>
+          <li>
+            <header class="product-items__cover">
+              <img
+                src="https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
+              />
+            </header>
+            <article class="product-items__info">
+              <h2>衣服</h2>
+              <b>213</b>
+              <section class="product-items__number">
+                <span class="material-symbols-outlined"> remove </span>
+                <input type="number" value="1" />
+                <span class="material-symbols-outlined"> add </span>
+              </section>
+              <button class="product-items__button">新增商品</button>
+            </article>
+          </li>
+          <li>
+            <header class="product-items__cover">
+              <img
+                src="https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg"
+              />
+            </header>
+            <article class="product-items__info">
+              <h2>大衣</h2>
+              <b>321</b>
+              <section class="product-items__number">
+                <span class="material-symbols-outlined"> remove </span>
+                <input type="number" value="1" />
+                <span class="material-symbols-outlined"> add </span>
+              </section>
+              <button class="product-items__button">新增商品</button>
+            </article>
+          </li>
+        </ul>
+      </article>
+      <aside class="main__aside">
+        <header class="main__aside-header"></header>
+        <ul class="cart-items"></ul>
+      </aside>
+    </main>
+    <script src="assets/javascript/script.js"></script>
+  </body>
 </html>
